@@ -1,7 +1,8 @@
 # MCSketch
 ## Introduction
 we present MCSketch, a novel sketch for heavy flow detection. It adopt power-weakening increment method which allow sufficient competition in the early stage of identifing heavy flow and amplify relative advantage when the counter is larg enough.
-all algorithms in this repo are implemented in C++.
+
+All algorithms in this repo are implemented in C++.
 ## About this repo
 data: we have solved the CAIDA data extracting the SrcIP as fingerprint in our experiment.
 demo: main
@@ -10,7 +11,7 @@ common: basic funtion
 - g++ >= 5.4
 - make >= 4.1
 we have test this repository in ubuntu 16.04
-## how to run
+## How to run
 you can build these algorithms by
 ```
 $ cd demo
