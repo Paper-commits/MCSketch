@@ -4,7 +4,7 @@ we present MCSketch, a novel sketch for heavy flow detection. It adopt power-wea
 
 All algorithms in this repo are implemented in C++.
 ## About this repo
-data: we have solved the CAIDA data extracting the SrcIP as fingerprint in our experiment.
+data: we have solved the CAIDA data extracting the SrcIP as fingerprint in our experiment.We provide one data for testing.
 demo: main
 common: basic funtion
 ## Requirements
@@ -19,4 +19,4 @@ $ make clean
 $ make
 $ ./main.out
 ```
-
+Next, you can input data, and different memory and threshold for testing.
